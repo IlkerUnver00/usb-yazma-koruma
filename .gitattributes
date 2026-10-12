@@ -1,0 +1,7 @@
+# Dosyalar test edildikleri baytlarla saklanır: git satır sonlarına (CRLF) ve BOM'a dokunmasın.
+*.ps1 -text
+*.cmd -text
+*.md  -text
+
+# regedit'in kendi biçimi UTF-16LE; metin olarak işlenirse bozulur.
+*.reg binary
